@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: jasper475/ultimate-cicd-2:${BUILD_NUMBER}
+        image: jasper475/ultimate-cicd-2:6
         ports:
         - containerPort: 8080
